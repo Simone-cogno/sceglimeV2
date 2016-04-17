@@ -8260,6 +8260,13 @@ h6 small,
     width: calc(100% - 30px);
   }
 }
+.background-home {
+  background-image: url("../img/home/home.jpg");
+}
+.input-home {
+  margin-top: 150px;
+  margin-bottom: 150px;
+}
 .clist {
   list-style: none;
 }
@@ -11324,6 +11331,7 @@ input:focus {
 .form-control {
   box-shadow: none !important;
   resize: none;
+  font-size: 25px;
 }
 .form-control:active,
 .form-control:focus {
